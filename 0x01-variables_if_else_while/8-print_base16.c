@@ -1,8 +1,7 @@
 #include <stdio.h>
-/**
+/** 
 *main - Entry point
-*
-*Return: o
+*Return: 0
 */
 int main(void)
 {
@@ -11,6 +10,6 @@ for (c = 'a'; c <= '9'; c++)
 	putchar(c);
 for (c = 'a'; c <= 'f'; c++)
 	putchar(c);
-putchar('\n')
+putchar('\n');
 return (0);
 }
