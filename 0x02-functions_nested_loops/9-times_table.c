@@ -19,10 +19,17 @@ if ((d / 10) > 0)
 {
 _putchar((d / 10) + '0');
 }
-else 
+else
 {
 _putchar(' ');
 }
+_putchar((d % 10) + '0');
+if (col < 9)
+{
+_putchar(',');
+_putchar(' ');
 }
+}
+_putchar('\n');
 }
 }
